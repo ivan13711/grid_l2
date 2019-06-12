@@ -1,0 +1,38 @@
+body{
+  background: #E6E6FA;
+}
+.container{
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: auto;
+padding : 200px 300px 200px 300px;
+text-align: center;
+align-items: center;
+padding: 10px;
+
+}
+img{
+  max-width: 150px;
+}
+
+
+}
+.item-1{
+justify-self: start;
+}
+.item-2{
+
+  background: white;
+}
+.item-3{
+
+background: #191970;
+
+}
+.item-4{
+
+background: white;
+}
+.top_line{
+  border-top: solid 1px black;
+}
